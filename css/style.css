@@ -52,7 +52,8 @@ img {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
+  /*overflow: hidden;*/
+  
 }
 
 .section {
@@ -106,6 +107,7 @@ main .container {
   display: flex;
   flex-direction: column;
   flex: 1;
+  box-shadow: 0 0 5px 0 var(--color-black-opacity);
 }
 
 .hero {
@@ -116,6 +118,7 @@ main .container {
 .hero .container {
   min-height: inherit;
   display: flex;
+  box-shadow: none;
 }
 .hero-content {
   flex: 1;
@@ -269,6 +272,32 @@ main .container {
 .stars i{
   font-size: 1rem;
   color: #ffd43b;
+}
+
+.cta {
+  background-color: var(--color-primary);
+  margin: 2rem 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  color: var(--color-white);
+  text-align: center;
+}
+.cta h2 {
+  color: inherit;
+}
+
+.cta p {
+  line-height: 2rem;
+  font-size: 1.25rem;
+  padding-bottom: 2rem;
+}
+.cta a{
+  display: inline-block;
+  padding: 1rem;
+  background-color: #25D366;
+  color: var(--color-white);
+  font-weight: bold;
+  border-radius: 10px;
 }
 /* --- SECCIONES --- */
 
