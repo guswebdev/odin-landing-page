@@ -109,15 +109,18 @@ img {
 
 /* Informacion */
 .informacion {
-  background-color: #e5e7eb;
+  background-color: white;
   padding: 4rem 0;
   text-align: center;
+  min-height: 350px;
 }
 
 .informacion .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 4rem;
+  min-height: 350px;
 }
 
 .info-header h3 {
@@ -148,3 +151,33 @@ img {
     line-height: 1.5;
 }
 /* Informacion */
+
+/* Cita */
+.cita {
+  min-height: 350px;
+  background-color: #e5e7eb;
+  padding: 4rem;
+}
+
+.cita .container {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cita-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.cita-author {
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #646464;
+}
+/* Cita */
