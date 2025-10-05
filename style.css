@@ -38,8 +38,9 @@ img {
 
 .header .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
 .logo {
@@ -60,16 +61,15 @@ img {
 
 /* Hero */
 .hero {
+  padding: 2rem 0;
   width: 100%;
-  min-height: calc(100vh - 74px);
+
   background-color: #1f2937;
 }
 
 .hero .container {
-  min-height: calc(100vh - 74px);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column-reverse;
 }
 
 .hero-text,
@@ -137,18 +137,18 @@ img {
 }
 
 .info-card {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .fa-info-circle {
-    color: #1f2937;
-    font-size: 4rem;
+  color: #1f2937;
+  font-size: 4rem;
 }
 
 .info-card p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 /* Informacion */
 
@@ -207,10 +207,10 @@ img {
 }
 
 .news-left h3 {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 .news-right button {
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   background-color: #3882f6;
   color: white;
   border: solid white 2px;
